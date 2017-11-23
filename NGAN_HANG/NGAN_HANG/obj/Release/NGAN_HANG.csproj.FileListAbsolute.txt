@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\bin\Release\NGAN_HANG.exe.config
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\bin\Release\NGAN_HANG.exe
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\bin\Release\NGAN_HANG.pdb
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.FormMain.resources
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.FormDangNhap.resources
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.frmKHACHHANG.resources
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.frmNHANVIEN.resources
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.Properties.Resources.resources
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.exe.licenses
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.exe
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.pdb
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.frmRUTTIEN.resources
+C:\Users\USER\Desktop\DA_CSDLPT\NGAN_HANG\NGAN_HANG\obj\Release\NGAN_HANG.frmCHUYENTIEN.resources

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{906585CE-155F-4CCA-BA5F-509B14C43946}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NGAN_HANG</RootNamespace>
+    <AssemblyName>NGAN_HANG</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.1" />
+    <Reference Include="DevExpress.Data.v15.1" />
+    <Reference Include="DevExpress.Printing.v15.1.Core" />
+    <Reference Include="DevExpress.Utils.v15.1" />
+    <Reference Include="DevExpress.XtraBars.v15.1" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v15.1" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCHUYENTIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCHUYENTIEN.Designer.cs">
+      <DependentUpon>frmCHUYENTIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKHACHHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKHACHHANG.Designer.cs">
+      <DependentUpon>frmKHACHHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNHANVIEN.Designer.cs">
+      <DependentUpon>frmNHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRUTGUITIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRUTGUITIEN.Designer.cs">
+      <DependentUpon>frmRUTGUITIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NGANHANGDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NGANHANGDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCHUYENTIEN.resx">
+      <DependentUpon>frmCHUYENTIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKHACHHANG.resx">
+      <DependentUpon>frmKHACHHANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNHANVIEN.resx">
+      <DependentUpon>frmNHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRUTGUITIEN.resx">
+      <DependentUpon>frmRUTGUITIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DS.xsc">
+      <DependentUpon>DS.xsd</DependentUpon>
+    </None>
+    <None Include="DS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS.xss">
+      <DependentUpon>DS.xsd</DependentUpon>
+    </None>
+    <None Include="NGANHANGDataSet.xsc">
+      <DependentUpon>NGANHANGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NGANHANGDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NGANHANGDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NGANHANGDataSet.xss">
+      <DependentUpon>NGANHANGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Login-48-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Apps-session-Exit-icon-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Apps-Dialog-Logout-icon-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Actions-list-add-user-icon-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Text-Edit-icon-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Save-icon-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Delete-2-icon-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Undo-icon-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Button-Refresh-icon-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Button-Add-24-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Maintenance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Save as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Close Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Available Updates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Thumbnails.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Privacy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Online Support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Logout Rounded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Natural User Interface 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Workflow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\icons8-Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\wallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\payment-method.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\transfer-money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\money-transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\customer-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\telemarketer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\toolbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\diskette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\rubbish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\bank-account.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
